@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap');
+
+/* font-family: 'Lexend Deca', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+/* font-family: 'Playball', cursive; */
+
+.loginScreen {
+    background-color: white;
+    height: 667px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginScreen h1 {
+    font-family: 'Playball', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 68.982px;
+    line-height: 86px;
+    text-align: center;
+    color: #126BA5;
+}
+
+.loginLogo {
+    margin-top: 68px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.loginLogo img {
+    margin-left: 10px;
+}
+
+.loginForm form {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm input {
+    width: 303px;
+    height: 45px;
+    background-color: #FFFFFF;
+    border: 1px solid #D5D5D5;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.loginForm button {
+    width: 303px;
+    height: 45px;
+    background: #52B6FF;
+    border-radius: 4.63636px;
+    border: #52B6FF;
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.976px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+::placeholder {
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.976px;
+    line-height: 25px;
+    color: #DBDBDB;
+}
+
+.loginScreen h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.976px;
+    line-height: 17px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #52B6FF;
+    cursor: pointer;
+}
